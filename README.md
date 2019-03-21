@@ -15,6 +15,17 @@ Small Flask server designed to help you keep track of users who upvoted your bot
 2. Choose any path you want.
 3. Enter `git clone https://github.com/shivaco/DBL-python-webhook.git`.
 
+## Setting up
+
+1. Open `settings.json` with any text editor.
+2. In `webhook_password` field, enter any password you want.
+3. On your bot's `Edit` page, scroll down to find `API Options` header.
+4. In `URL` field, enter `http://your-public-IP:5000/dblwebhook`, where `your-public-IP` is your external IP. You can find it using "What is my IP" websites.
+5. In `Authorization` field, enter what you have entered in `webhook_password` (step 2).
+6. SAVE IT.
+
+![PRESS THIS](https://i.imgur.com/OS493w6.png)
+
 ## Running
 
 ### Linux/MacOS
