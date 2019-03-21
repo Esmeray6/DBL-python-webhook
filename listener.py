@@ -1,10 +1,10 @@
-import sys, datetime
+import sys, datetime, json
 from flask import Flask, request, abort, jsonify
 from pymongo import MongoClient
 import os
 
 with open("settings.json") as settings:
-    webhook_password = settings['webhook_password']
+    webhook_password = json.load(settings)['webhook_password']
 
 mongo = MongoClient()
 app = Flask(__name__)
