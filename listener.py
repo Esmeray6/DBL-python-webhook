@@ -9,7 +9,7 @@ with open("settings.json") as settings:
 mongo = MongoClient()
 app = Flask(__name__)
 
-@app.route('/test', methods=['GET'])
+@app.route('/test', methods=['GET', 'POST'])
 def test():
     return jsonify(dict(request.headers))
 
