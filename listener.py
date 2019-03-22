@@ -9,7 +9,7 @@ with open("settings.json") as settings:
 mongo = MongoClient()
 app = Flask(__name__)
 
-@app.route('/test', methods=['GET', 'POST'])
+@app.route('/test', methods=['GET'])
 def test():
     return jsonify(dict(request.headers))
 
@@ -22,8 +22,6 @@ def webhook():
             'bot': request.json.get('bot'),
             'weekend': request.json.get('isWeekend'),
             'time': datetime.datetime.utcnow()})
-        print(request.json)
-        #print(request.json)
         return '', 200
     else:
         abort(400)
