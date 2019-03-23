@@ -43,7 +43,7 @@ If you want a this webserver to post a message in a certain channel when someone
 1. Install tmux.
 2. Enter `tmux new -s flaskserver`.
 
-    2.1. Feel free to change `flaskserver` to anything.
+   2.1. Feel free to change `flaskserver` to anything.
 3. Run `bash start.sh` inside the webserver folder.
 
 ### Windows
