@@ -8,6 +8,8 @@ Small Flask server designed to help you keep track of users who upvoted your bot
 * [Flask](https://pypi.org/project/Flask/1.0.2/)
 * [Python3.6+](https://www.python.org/downloads/release/python-360/)
 * [Git](https://git-scm.com/downloads)
+* [requests](https://pypi.org/project/requests/)
+* discord.py rewrite (v1.0.0+) `python -m pip install -U git+https://github.com/Rapptz/discord.py@rewrite#egg=discord.py[voice]` for Windows or `pip3 install -U git+https://github.com/Rapptz/discord.py@rewrite#egg=discord.py[voice]` for Linux and MacOS.
 
 ## Installation
 
