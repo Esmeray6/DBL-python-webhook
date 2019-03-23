@@ -10,7 +10,7 @@ with open("settings.json") as settings:
     discord_webhook = data['discord_webhook_url']
     if discord_webhook != "":
         webhook_id = int(re.search(r"\d+", discord_webhook).group())
-        webhook_token = re.search(r"(\w+)$", discord_webhook).group()
+        webhook_token = re.search(r"(?!.*\/)+(.*)", discord_webhook).group()
 
 
 mongo = MongoClient()
