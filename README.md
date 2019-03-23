@@ -26,12 +26,24 @@ Small Flask server designed to help you keep track of users who upvoted your bot
 
 ![PRESS THIS](https://i.imgur.com/OS493w6.png)
 
+## Additional
+
+If you want a this webserver to post a message in a certain channel when someone votes for your bot, follow the guide below.
+
+1. Create a webhook in preferred channel.
+2. Copy the webhook URL.
+3. Open `settings.json` with any text editor.
+4. In `discord_webhook_url` field, enter the webhook URL.
+5. Save the file.
+
 ## Running
 
 ### Linux/MacOS
 
 1. Install tmux.
-2. Enter `tmux new -s flaskserver` (change `flaskserver` to anything)
+2. Enter `tmux new -s flaskserver`.
+
+    2.1. Feel free to change `flaskserver` to anything.
 3. Run `bash start.sh` inside the webserver folder.
 
 ### Windows
