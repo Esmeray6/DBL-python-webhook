@@ -1,3 +1,4 @@
 {
-	"webhook_password": ""
+	"webhook_password": "",
+	"discord_webhook_url": ""
 }
