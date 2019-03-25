@@ -1,4 +1,4 @@
-import sys, datetime, json, re, requests
+import sys, datetime, json, re
 from discord import Webhook, RequestsWebhookAdapter, Embed, Color
 from flask import Flask, request, abort, jsonify
 from pymongo import MongoClient
