@@ -50,7 +50,6 @@ You will most likely have to open port 5000 on your router.
 
 1. Install tmux.
 2. Enter `tmux new -s flaskserver`.
-
    2.1. Feel free to change `flaskserver` to anything.
 3. Run `bash start.sh` inside the webserver folder.
 
