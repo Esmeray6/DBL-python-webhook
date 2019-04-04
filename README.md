@@ -32,7 +32,7 @@ Small Flask server designed to help you keep track of users who upvoted your bot
 
 ### Webhooks
 
-If you want a this webserver to post a message in a certain channel when someone votes for your bot, follow the guide below.
+If you want this webserver to post a message in a certain channel when someone votes for your bot, follow the guide below.
 
 1. Create a webhook in preferred channel.
 2. Copy the webhook URL.
