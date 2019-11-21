@@ -1,5 +1,5 @@
 ## DBL-python-webhook
-Small Flask server designed to help you keep track of users who upvoted your bot on [DBL](https://discordbots.org/).
+Small Flask server designed to help you keep track of users who upvoted your bot on [DBL](https://top.gg/).
 
 ## Requirements
 
